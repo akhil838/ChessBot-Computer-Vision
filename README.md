@@ -2,7 +2,7 @@
 Model Capable of Detecting chess pieces, and augmenting the next move in realtime !
 
 ## Dataset
-![Screen Recording 2025-04-01 at 10 08 21 AM](https://github.com/user-attachments/assets/c2dd868f-7ab1-4634-aa81-671e34ac6832)<br>
+![Screen Recording 2025-04-14 at 7 27 02 PM](https://github.com/user-attachments/assets/68c2516a-9657-421c-85f4-5930e8d171e1)</br>
 * The model is completely trained on synthetic data generated using blender
 * Each Chess Piece is Crafted using the existing real-life piece taken as a reference
 * The blend file also includes the python script to automate the making of dataset
