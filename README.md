@@ -9,3 +9,6 @@ Model Capable of Detecting chess pieces, and augmenting the next move in realtim
     * Randomize camera and lighting positions
     * place chess pieces according to FEN
     * Capture image and Save annotations
+
+## Inference
+![WhatsApp Video 2025-04-21 at 21 15 35](https://github.com/user-attachments/assets/21f4d158-887c-4532-9758-553a5962fc13)
