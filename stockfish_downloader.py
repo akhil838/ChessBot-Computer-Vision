@@ -90,6 +90,19 @@ def download_stockfish():
         extract_dir = os.path.abspath('./')
         extract_archive(asset_name, extract_dir)
 
+        stockfish_path = './stockfish'
+        for file in os.listdir('./stockfish'):
+            if file.startswith('stockfish-'):
+                stockfish_path = os.path.join(stockfish_path, file)
+                break
         print(f"Stockfish has been downloaded and extracted to '{extract_dir}'.")
+        return stockfish_path
     else:
-        print(f"Stockfish is already downloaded. path: {os.path.abspath('./stockfish')}")
+        stockfish_path = './stockfish'
+        for file in os.listdir('./stockfish'):
+            if file.startswith('stockfish-'):
+                stockfish_path = os.path.join(stockfish_path, file)
+                break
+
+        print(f"Stockfish is already downloaded. path: {os.path.abspath(stockfish_path)}")
+        return stockfish_path
