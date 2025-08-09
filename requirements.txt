@@ -1,0 +1,6 @@
+ultralytics
+chess
+shapely
+numpy
+opencv-python
+pillow
